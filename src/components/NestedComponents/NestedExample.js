@@ -20,6 +20,16 @@ function NeatedExample(){
             <p>Home</p>
         </li>
         </Link>
+        <Link to={'UseRef'}>
+        <li>
+            <p>UseRef</p>
+        </li>
+        </Link>
+        <Link to={'UseReducer'}>
+        <li>
+            <p>UseReducer</p>
+        </li>
+        </Link>
        </ul>
        <Outlet/>
     </div>
