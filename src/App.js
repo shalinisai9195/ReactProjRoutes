@@ -8,8 +8,8 @@ import NeatedExample from './components/NestedComponents/NestedExample';
 import Profile from './components/NestedComponents/Profile';
 import Account from './components/NestedComponents/Account';
 import Home from './components/NestedComponents/Home';
-import UseRef from './components/NestedComponents/UseRef';
-import UseReducer from './components/NestedComponents/UseReducer';
+// import UseRef from './components/NestedComponents/UseRef';
+// import UseReducer from './components/NestedComponents/UseReducer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContextUsingData from './components/ContextComponents/ContextUsingData';
 import DashboardContext from './components/ContextComponents/DashboardContext'
@@ -42,8 +42,8 @@ return <div id="wrapper">
           <Route path='profile' element={<Profile/>}/>
           <Route path='account' element={<Account/>}/>
           <Route path='home' element={<Home/>}/>
-          <Route path='UseRef' element={<UseRef/>}/>
-          <Route path='UseReducer' element={<UseReducer/>}/>
+          {/* <Route path='UseRef' element={<UseRef/>}/>
+         <Route path='UseReducer' element={<UseReducer/>}/> */}
 
       </Route>
      
