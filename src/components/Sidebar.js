@@ -30,7 +30,9 @@ function Sidebar(){
             <hr className="sidebar-divider"/>
 
             {/* <!-- Heading --> */}
-          
+           <div className="sidebar-heading">
+        InterFace
+           </div>
 
             {/* <!-- Nav Item - Pages Collapse Menu --> */}
             <li className="nav-item">
@@ -45,7 +47,7 @@ function Sidebar(){
 
             {/* <!-- Nav Item - Utilities Collapse Menu --> */}
             <li className="nav-item">
-                <Link to='/add-user'>
+                <Link to='/add-users'>
                     <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i className="fas fa-fw fa-wrench"></i>
@@ -54,7 +56,7 @@ function Sidebar(){
                 </Link>
             </li>
             <li className="nav-item">
-            <Link to='/nested-sample'>
+            <Link to='/alluser'>
                     <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i className="fas fa-fw fa-wrench"></i>
@@ -64,8 +66,29 @@ function Sidebar(){
             </li>
             {/* <!-- Divider --> */}
             <hr className="sidebar-divider"/>
+            {/* Heading  */}
+            <div className="sidebar-heading">
+            Axios CRUD
+           </div>
 
-            
+            <li className="nav-item">
+            <Link to='/alluser'>
+                    <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i className="fas fa-fw fa-wrench"></i>
+                    <span>Alluser</span>
+                    </div>
+                </Link>
+            </li>
+            <li className="nav-item">
+            <Link to='/add-people'>
+                    <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i className="fas fa-fw fa-wrench"></i>
+                    <span>Addusers</span>
+                    </div>
+                </Link>
+            </li>
 
             
 

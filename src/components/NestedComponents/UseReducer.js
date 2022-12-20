@@ -7,6 +7,7 @@ function UsingReducer(state,action){
         case "decrement": return {...state, count:state.count-1}
         case "Reset": return {...state, count:0,name:""}
         case "Updatename": return {...state, name:action.value}
+        default: return {...state, count:state.name}
     }
 }
 
