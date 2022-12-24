@@ -31,7 +31,7 @@ function EditUser(){
           setTime(usingcontext.users[id].timings)
          }else
          { navigate('/dashboard')}
-      },[])
+      },[id,navigate,usingcontext.users])
     let handleSubmit=()=>{
         let newUserData = {name,email,mobile,Batch,timings} // object declar
         let newArry = [...usingcontext.users] //old datas
